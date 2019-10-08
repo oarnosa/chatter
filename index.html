@@ -5,45 +5,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Bootstrap CSS -->
+  <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!-- Font Awesome -->
+  <!-- font awesome -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Custom CSS -->
+  <!-- custom css -->
   <link rel="stylesheet" href="style.css">
   <title>Chatter</title>
 </head>
 
 <body>
-  <!-- Container -->
-  <div class="container">
-    <!-- Message container -->
-    <div id="message-container">
-      <form id="send-container">
-        <input type="text" id="message-input">
-        <button type="submit" id="send-button">Send</button>
+  <!-- wrapper -->
+  <div class="container" id="wrapper">
+    <!-- messages container -->
+    <section class="container" id="msg-cont">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="msgs">
+            <!-- added message divs -->
+          </div>
+        </div>
+      </div>
+    </section> <!-- end messages container -->
+    <!-- send container -->
+    <section class="container" id="send-cont">
+      <form class="form-row" id="send-form">
+        <input class="col-sm-11" type="text" id="send-msg" placeholder="Type a message...">
+        <button class="col-sm-1 btn btn-link" type="submit" id="send-btn"><i
+            class="fa fa-angle-double-right float-right"></i></button>
       </form>
-      <!-- Added divs -->
-      <div>Added Message</div>
-    </div>
-  </div>
+    </section> <!-- end send container -->
+  </div> <!-- end chat container -->
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-  <!-- Popper.js -->
+  <!-- popper.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <!-- Bootstrap JS -->
+  <!-- bootstrap js -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <!-- Socket.io -->
+  <!-- socket.io -->
   <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
-  <!-- Custom JS -->
+  <!-- custom js -->
   <script defer src="script.js"></script>
 </body>
 

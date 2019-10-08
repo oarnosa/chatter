@@ -2,13 +2,12 @@
 const socket = io('http://localhost:3000');
 
 // get html elements
-const messageContainer = document.getElementById('message-container');
-const messageForm = document.getElementById('send-container');
-const messageInput = document.getElementById('message-input');
+const messageContainer = document.getElementById('msgs');
+const messageForm = document.getElementById('send-form');
+const messageInput = document.getElementById('send-msg');
 
 // ask for user name
-// const name = prompt('What is your name?');
-let name = 'Orlando';
+const name = prompt('What is your name?');
 appendMessage(`Hey ${name}, Welcome to Chatter!`);
 socket.emit('new-user', name);
 
@@ -27,7 +26,7 @@ socket.on('user-disconnected', name => {
   appendMessage(`${name} has left the chat room`);
 });
 
-// send meesage typed by the user
+// send message typed by the user
 messageForm.addEventListener('submit', e => {
   e.preventDefault();
   const message = messageInput.value;
