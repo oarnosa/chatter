@@ -7,7 +7,8 @@ const messageForm = document.getElementById('send-container');
 const messageInput = document.getElementById('message-input');
 
 // ask for user name
-const name = prompt('What is your name?');
+// const name = prompt('What is your name?');
+let name = 'Orlando';
 appendMessage(`Hey ${name}, Welcome to Chatter!`);
 socket.emit('new-user', name);
 
