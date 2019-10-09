@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  height: 100%;
+  width: 100%;
   background-color: #f2f2f2;
 }
 
@@ -26,6 +29,14 @@ textarea {
   padding: 0 5px;
 }
 
+.welcome {
+  color: green;
+}
+
+.disconnected {
+  color: red;
+}
+
 #wrapper {
   height: 80vh;
   margin: 10vh auto;
@@ -35,13 +46,13 @@ textarea {
 }
 
 #msg-cont {
+  min-height: 75vh;
+  max-height: 75vh;
+  overflow: auto;
   padding: 10px 15px;
 }
 
 #send-cont {
-  margin-top: 15px;
   padding: 10px 15px;
   border-top: 1px solid #c4c4c4;
-  position: absolute;
-  bottom: 0;
 }
