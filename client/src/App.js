@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Join from './components/join/join.component';
 import Chat from './components/chat/chat.component';
 
+import './App.css';
+
 const App = () => (
   <Router>
     <Route path='/' exact component={Join} />
