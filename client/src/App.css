@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 html,
 body {
   font-family: 'Josefin Sans', cursive;
@@ -16,6 +17,12 @@ button {
 
 button:focus {
   outline: 0;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
 }
 
 #root {
