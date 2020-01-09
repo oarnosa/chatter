@@ -1,13 +1,13 @@
 .message-container {
   display: flex;
   justify-content: flex-end;
-  padding: 0 5%;
-  margin-top: 3px;
+  padding: 0 2%;
+  margin: 2% 0;
 
   .message-box {
     background: #f3f3f3;
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 0 15px;
     color: white;
     display: inline-block;
     max-width: 80%;
@@ -16,7 +16,7 @@
       width: 100%;
       letter-spacing: 0;
       float: left;
-      font-size: 1.1em;
+      font-size: 16px;
       word-wrap: break-word;
 
       img {

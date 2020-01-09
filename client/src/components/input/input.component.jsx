@@ -3,17 +3,17 @@ import React from 'react';
 import './input.styles.scss';
 
 const Input = ({ message, sendMessage, setMessage }) => (
-  <form className='form'>
+  <form className="form">
     <input
-      type='text'
-      className='input'
-      placeholder='Type a message...'
+      type="text"
+      className="input"
+      placeholder="Type a message..."
       value={message}
       onChange={event => setMessage(event.target.value)}
       onKeyPress={event => (event.key === 'Enter' ? sendMessage(event) : null)}
     />
-    <button className='send-button' onClick={event => sendMessage(event)}>
-      Send
+    <button className="send-button" onClick={event => sendMessage(event)}>
+      <strong>Send</strong>
     </button>
   </form>
 );
