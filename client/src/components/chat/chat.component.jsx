@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import queryString from 'query-string';
 import io from 'socket.io-client';
 
+import Lobby from '../lobby/lobby.component';
 import Messages from '../messages/messages.component';
 import InfoBar from '../info-bar/info-bar.component';
 import Input from '../input/input.component';
@@ -58,8 +59,8 @@ const Chat = ({ location }) => {
   };
 
   return (
-    <div className='outer-container'>
-      <div className='container'>
+    <div className="outer-container">
+      <div className="container">
         <InfoBar room={room} />
         <Messages messages={messages} name={name} />
         <Input
@@ -68,6 +69,7 @@ const Chat = ({ location }) => {
           sendMessage={sendMessage}
         />
       </div>
+      <Lobby users={users} />
     </div>
   );
 };
