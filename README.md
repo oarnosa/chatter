@@ -1,18 +1,16 @@
 # Chatter
 
-> A real-time chat app built on React.js, Node.js and Socket.io
+> A real time chat app built on React, Node, Express, and Socket.io
 
 ## Table of contents
 
-- [Chatter](#chatter)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Technologies](#technologies)
-    - [Server](#server)
-    - [Client](#client)
-  - [Features](#features)
-    - [To-do list](#to-do-list)
-  - [Status](#status)
+- [General info](#general-info)
+- [Technologies](#technologies)
+  - [Server](#server)
+  - [Client](#client)
+- [Features](#features)
+  - [To-do list](#to-do-list)
+- [Status](#status)
 
 ## General info
 
