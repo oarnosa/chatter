@@ -1,21 +1,23 @@
 .form {
   display: flex;
   height: 10%;
+  border-radius: 0 0 16px 16px;
 
   .input {
     border: none;
     border-top: 2px solid #d3d3d3;
-    border-radius: 0;
     padding: 0 2%;
     width: 85%;
     font-size: 16px;
+    border-radius: inherit;
   }
 
   .send-button {
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #f7505a;
+    background: var(--color-primary);
+    border-radius: 0 0 16px 0;
     border: none;
     width: 15%;
   }

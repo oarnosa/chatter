@@ -5,7 +5,7 @@
   margin: 2% 0;
 
   .message-box {
-    background: #f3f3f3;
+    background: var(--color-secondary);
     border-radius: 20px;
     padding: 0 15px;
     color: white;
@@ -50,11 +50,11 @@
   }
 
   .background-red {
-    background: #f7505a;
+    background: var(--color-primary);
   }
 
   .background-light {
-    background: #f3f3f3;
+    background: var(--color-secondary);
   }
 }
 
