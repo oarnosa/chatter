@@ -5,10 +5,10 @@
   color: white;
   height: 75%;
   justify-content: space-between;
-  font-size: 0.85em;
 
   h1 {
-    margin-top: 0;
+    margin: auto;
+    font-size: 24px;
   }
 }
 
@@ -19,6 +19,7 @@
   .active-item {
     display: flex;
     align-items: center;
+    font-size: 20px;
   }
 
   img {

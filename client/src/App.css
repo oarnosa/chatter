@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 :root {
   --color-background: #14171a;
@@ -8,7 +8,7 @@
 
 html,
 body {
-  font-family: 'Josefin Sans', cursive;
+  font-family: 'Montserrat', sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -17,8 +17,13 @@ body {
   box-sizing: border-box;
 }
 
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
 button {
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
 }
 
 button:focus {
