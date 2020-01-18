@@ -44,10 +44,10 @@ node start
 
 ## Hosting
 
-This app was deployed using Heroku and can be viewed by first initializing the server by opening:
+This app was deployed using Heroku and can be viewed by first initializing the server by opening:  
 [oarnosa-chatter-server.herokuapp.com](oarnosa-chatter-server.herokuapp.com)
 
-And then launching multiple clients depending how many users will be connecting:
+And then launching multiple clients depending how many users will be connecting:  
 [oarnosa-chatter.herokuapp.com](oarnosa-chatter.herokuapp.com)
 
 ## Technologies
