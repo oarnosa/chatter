@@ -4,17 +4,15 @@
 
 ## Table of contents
 
-- [Chatter](#chatter)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Setup](#setup)
-  - [Hosting](#hosting)
-  - [Technologies](#technologies)
-    - [Server](#server)
-    - [Client](#client)
-  - [Features](#features)
-    - [To-do list](#to-do-list)
-  - [Status](#status)
+- [General info](#general-info)
+- [Setup](#setup)
+- [Hosting](#hosting)
+- [Technologies](#technologies)
+  - [Server](#server)
+  - [Client](#client)
+- [Features](#features)
+  - [To-do list](#to-do-list)
+- [Status](#status)
 
 ## General info
 
@@ -38,7 +36,7 @@ npm install
 Once the dependencies have been installed, initialize the server, followed by the client:
 
 ```
-cd ./server/
+cd ../server/
 node start
 cd ../client/
 node start
