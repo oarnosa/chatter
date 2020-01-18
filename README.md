@@ -4,17 +4,53 @@
 
 ## Table of contents
 
-- [General info](#general-info)
-- [Technologies](#technologies)
-  - [Server](#server)
-  - [Client](#client)
-- [Features](#features)
-  - [To-do list](#to-do-list)
-- [Status](#status)
+- [Chatter](#chatter)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Setup](#setup)
+  - [Hosting](#hosting)
+  - [Technologies](#technologies)
+    - [Server](#server)
+    - [Client](#client)
+  - [Features](#features)
+    - [To-do list](#to-do-list)
+  - [Status](#status)
 
 ## General info
 
-Chatter is a real-time chat application built using React, Node, Express, and Socket.io which allows for communciation between multiple users inside of a chatroom. The purpose of this project was to serve as an introduction to utilizing WebSockets through the Socket.io library and also as an introduction to using React Hooks for state management. Socket.io is a library which allows for real-time, bidirectional, event-based communication. It is setup on both the server, to handle all incoming requests, and on the client, to handle the messages being created by the users, and provides a fast and responsive experience for real-time communication. The use of hooks to manage state allows for the removal of class components within the application and simplifies the process of modifying the users and connections within the chat app.
+Chatter is a real-time chat application built using React, Node, Express, and Socket.io which allows for communciation between multiple users inside of a chatroom. The purpose of this project was to serve as an introduction to utilizing WebSockets through Socket.io. Socket.io is a library which allows for real-time, bidirectional, event-based communication. It is setup on both the server, to handle all incoming requests, and on the client, to handle the messages being created by the users, and provides a fast and responsive experience for real-time communication.
+
+## Setup
+
+Clone project into desired directory and ensure [Node.js](https://nodejs.org/en/download/) is installed.
+
+Navigate to the server folder and modify the ENDPOINT variable in `index.js` and set it to `localhost` or your server location.
+
+Install project dependencies for both the server and the client:
+
+```
+cd ./server/
+npm install
+cd ../client/
+npm install
+```
+
+Once the dependencies have been installed, initialize the server, followed by the client:
+
+```
+cd ./server/
+node start
+cd ../client/
+node start
+```
+
+## Hosting
+
+This app was deployed using Heroku and can be viewed by first initializing the server by opening:
+[oarnosa-chatter-server.herokuapp.com](oarnosa-chatter-server.herokuapp.com)
+
+And then launching multiple clients depending how many users will be connecting:
+[oarnosa-chatter.herokuapp.com](oarnosa-chatter.herokuapp.com)
 
 ## Technologies
 
@@ -46,10 +82,10 @@ Chatter is a real-time chat application built using React, Node, Express, and So
 
 ### To-do list
 
+- Implement mobile support.
 - Implement list view for all active chatrooms
 - Add ability to privately message other users
-- Add users to a friends list
-- Check whether a user is onlne
+- Add a friends list
 
 ## Status
 
