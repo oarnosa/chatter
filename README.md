@@ -16,7 +16,7 @@
 
 ## General info
 
-Chatter is a real-time chat application built using React, Node, Express, and Socket.io which allows for communciation between multiple users inside of a chatroom. The purpose of this project was to serve as an introduction to utilizing WebSockets through the Socket.io library and also as an introduction to using React Hooks for state management. Socket.io is a library which allows for real-time, bidirectional, event-based communication. It is setup on both the server, to handle all incoming requests, and on the client, to handle the messages being created by the users, and provides a fast and responsive experience for real-time communication. The addition of hooks to manage state allows for the removal of class components within the react application and simplifies the process of modifying the users and connections within the chat app.
+Chatter is a real-time chat application built using React, Node, Express, and Socket.io which allows for communciation between multiple users inside of a chatroom. The purpose of this project was to serve as an introduction to utilizing WebSockets through the Socket.io library. Socket.io is a library which allows for real-time, bidirectional, event-based communication. It is setup on both the server, to handle all incoming requests, and on the client, to handle the messages being created by the users, and provides a fast and responsive experience for real-time communication. During the implementation of this project, I was also introduced to the use of hooks within React to handle state and props. This feature allowed for the removal of class components and stream-lined the process of handling the users and connections amongst different components.
 
 ## Setup
 
