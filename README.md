@@ -8,6 +8,8 @@
 - [Setup](#setup)
 - [Hosting](#hosting)
 - [Technologies](#technologies)
+  - [Server](#server)
+  - [Client](#client)
 - [Features](#features)
   - [To-do list](#to-do-list)
 - [Status](#status)
@@ -50,9 +52,14 @@ And then launching multiple clients depending how many users will be connecting:
 
 ## Technologies
 
+### Server
+
 - Node: v10.16.0
 - Express: v4.17.1
 - Socket.io: v2.3.0
+
+### Client
+
 - React: v16.12.0
 - React-Emoji: v0.5.0
 - React-Scroll-to-Bottom: v1.3.2
