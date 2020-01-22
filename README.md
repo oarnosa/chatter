@@ -1,6 +1,6 @@
 # Chatter
 
-> A real-time chat app built on React.js, Node.js and Socket.io
+> A real-time chat application built using React, Node.js, Express, and Socket.io which allows for communciation between multiple users inside of a chatroom
 
 ## Table of contents
 
@@ -16,7 +16,7 @@
 
 ## General info
 
-Chatter is a real-time chat application built using React, Node, Express, and Socket.io which allows for communciation between multiple users inside of a chatroom. The purpose of this project was to serve as an introduction to utilizing WebSockets through the Socket.io library. Socket.io is a library which allows for real-time, bidirectional, event-based communication. It is setup on both the server, to handle all incoming requests, and on the client, to handle the messages being created by the users, and provides a fast and responsive experience for real-time communication. During the implementation of this project, I was also introduced to the use of hooks within React to handle state and props. This feature allowed for the removal of class components and stream-lined the process of handling the users and connections amongst different components.
+Chatter is a real-time chat application built using React, Node.js, Express, and Socket.io which allows for communciation between multiple users inside of a chatroom. The purpose of this project was to serve as an introduction to utilizing WebSockets through the Socket.io library. Socket.io is a library which allows for real-time, bidirectional, event-based communication. It is setup on both the server, to handle all incoming requests, and on the client, to handle the messages being created by the users, and provides a fast and responsive experience for real-time communication. During the implementation of this project, I was also introduced to the use of hooks within React to handle state and props. This feature allowed for the removal of class components and stream-lined the process of handling the users and connections amongst different components.
 
 ## Setup
 
