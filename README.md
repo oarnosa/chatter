@@ -6,7 +6,7 @@
 
 - [General info](#general-info)
 - [Setup](#setup)
-- [Hosting](#hosting)
+- [Deployment](#deployment)
 - [Technologies](#technologies)
   - [Server](#server)
   - [Client](#client)
@@ -42,7 +42,7 @@ cd ../client/
 node start
 ```
 
-## Hosting
+## Deployment
 
 This app was deployed using Heroku and can be viewed by first initializing the server by opening:  
 [oarnosa-chatter-server.herokuapp.com](https://oarnosa-chatter-server.herokuapp.com/)
@@ -67,6 +67,7 @@ And then launching multiple clients depending how many users will be connecting:
 
 ## Features
 
+- Mobile view support
 - Accepts multiple user connections
 - Create various chatrooms with different users
 - View other users within the channel
@@ -74,7 +75,6 @@ And then launching multiple clients depending how many users will be connecting:
 
 ### To-do list
 
-- Implement UI changes to allow for mobile support
 - Implement list view for all active chatrooms
 - Add ability to privately message other users
 - Add users to a friends list
