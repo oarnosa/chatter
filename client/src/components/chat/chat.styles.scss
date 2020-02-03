@@ -18,3 +18,11 @@
       0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
   }
 }
+
+@media screen and (max-width: 800px) {
+  .outer-container .container {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+}

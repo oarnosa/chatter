@@ -40,3 +40,9 @@
 .mt-20 {
   margin-top: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .join-outer-container .join-inner-container {
+    width: 85%;
+  }
+}
