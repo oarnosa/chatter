@@ -26,7 +26,7 @@ Navigate to the server folder and modify the ENDPOINT variable in `index.js` and
 
 Install project dependencies for both the server and the client:
 
-```
+```bash
 cd ./server/
 npm install
 cd ../client/
@@ -35,7 +35,7 @@ npm install
 
 Once the dependencies have been installed, initialize the server, followed by the client:
 
-```
+```bash
 cd ../server/
 node start
 cd ../client/
