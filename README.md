@@ -1,4 +1,4 @@
-# Chatter
+# Chat-app
 
 > A real-time chat application built using React, Node.js, Express, and Socket.io which allows for communciation between multiple users inside of a chatroom
 
